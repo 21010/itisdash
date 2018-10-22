@@ -1,0 +1,109 @@
+.app-login-form {
+    padding: 2rem;
+    max-width: 400px;
+    max-height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    transition: 0.5s linear;
+}
+
+.app-login-form-caption,
+.app-login-form-status {
+    width: 100%;
+    padding: 2rem 0;
+    font-size: 1.6rem;
+    text-align: center;
+    text-shadow: 0 0 0.1rem #000;
+    user-select: none;
+}
+.app-login-form-caption::before {
+    content: "\e831";
+    font-family: 'dashboard';
+    margin-right: 0.5rem;
+    color: lightskyblue;
+}
+
+.app-login-form-input {
+    width: 100%;
+    height: 3.6rem;
+    display: flex;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem auto;
+    background: #fff;
+    transition: border-left 0.5s linear;
+    border-left: 2rem solid #333;
+    border-radius: 0.3rem;
+    box-shadow: 0 0 0.1rem 0.1rem #222;
+}
+.app-login-form-input:focus-within {
+    background-color: rgb(192, 225, 236);
+    border-left: 2rem solid orange;
+}
+.app-login-form-input input:focus {
+    background-color: rgb(192, 225, 236);
+}
+
+.app-login-form-input span {
+    font-family: 'dashboard';
+    margin: auto 0.5rem;
+    font-size: 2rem;
+    line-height: 3.6rem;
+    color: #333;
+}
+
+.app-login-form-input input {
+    padding: 0 1rem;
+    border: none;
+    flex-grow: 2;
+    text-align: center;
+    font-size: 1.8rem;
+    transition: 0.5s linear;
+}
+.app-login-form-input:hover,
+.app-login-form-input input:hover {
+    background-color: lightgoldenrodyellow;
+}
+.app-login-form-input:hover {
+    border-left: 2rem solid coral;
+    transition: 0.5s linear;
+}
+.app-login-form-input input:focus {
+    outline: none;
+}
+.app-login-form-input:has(input:invalid) {
+    background-color: lightcoral;
+}
+
+.app-login-form-submit {
+    width: 100%;
+    height: 4.8rem;
+    margin: 2rem auto 0 auto;
+    font-size: 1.8rem;
+    border-radius: 0.3rem;
+    border: 1px solid #222;
+    box-shadow: 0 0 0.1rem 0.1rem #222;
+    background: orange;
+    cursor: pointer;
+    transition: 0.5s linear;
+}
+.app-login-form-submit span::before {
+    content: "\e820";
+    font-family: 'dashboard';
+    margin-right: 0.5rem;
+}
+.app-login-form-submit:hover,
+.app-login-form-submit:focus {
+    background-color: coral;
+    border: 1px solid #222;
+    outline: none;
+}
+.app-login-form-submit:enabled:active {
+    box-shadow: inset 0 0 0.2rem 0.3rem #222;
+    border: 1px solid #222;
+}
+
+.app-login-form-submit:disabled {
+    background: #666;
+    cursor: default;
+}

@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  transition: margin-bottom 0.3s;
+}
+
+html {
+  font-size: 10px;
+  overflow-y: auto;
+}
+
+body {
+  font-family: 'Comfortaa', monospace;
+  background: #333;
+  color: #fff;
+}
+
+#root {
+  height: 100vh;
+  width: 100vw;
+}
+
+.hidden {
+  margin-bottom: -5rem;
+}
+
+#pop-up {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 9;
+  width: calc(100% - 5rem);
+  height: 2rem;
+  padding: 1.5rem 2.5rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.success {
+  background-color: lightgreen;
+  color: #333;
+}
+.success::before {
+  content: "\e80a";
+  font-family: 'dashboard';
+  margin-right: 0.5rem;
+}
+
+.error {
+  background-color: lightcoral;
+  color: #333;
+}
+.error::before {
+  content: "\e811";
+  font-family: 'dashboard';
+  color: red;
+  margin-right: 0.5rem;
+}
+
+.info {
+  background-color: lightskyblue;
+  color: #333;
+}
+.info::before {
+  content: "\e831";
+  font-family: 'dashboard';
+  margin-right: 0.5rem;
+}

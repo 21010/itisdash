@@ -1,0 +1,39 @@
+/* Footer */
+#app-footer {
+    position: relative;
+    width: 100%;
+    line-height: 4.8rem;
+    background-color: rgb(49, 159, 255);
+    box-shadow: 0 0.2rem 0.5rem 0.3rem #222;
+    /* display: flex; */
+    display: none;
+}
+
+/* #app-footer::before {
+  position: absolute;
+  bottom: 0;
+  right: 2rem;
+  content: "\e801";
+  font-family: 'dashboard';
+  font-size: 3.6rem;
+  line-height: 4.8rem;
+} */
+  .safety-message {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    font-size: 2rem;
+    color: #fff;
+  }
+
+  .safety-message-label {
+    padding: 0 1rem;
+    margin: 0;
+    font-weight: bold;
+  }
+
+  .safety-message-label::before {
+    content: "\f1cd";
+    font-family: 'dashboard';
+    margin-right: 0.5rem;
+  }

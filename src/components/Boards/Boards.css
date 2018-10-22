@@ -1,0 +1,12 @@
+.boards {
+    width: 100%;
+    height: 100%;
+}
+
+.boards .board {
+    display: none;
+}
+
+.boards .board:first-child {
+    display: flex;
+}

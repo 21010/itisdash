@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'dashboard';
+    font-display: optional;
+    src: local('dashboard'), url(../font/dashboard.eot?20202465);
+    src: local('dashboard'), url(../font/dashboard.eot?20202465#iefix) format('embedded-opentype'),
+         local('dashboard'), url(../font/dashboard.woff2?20202465) format('woff2'),
+         local('dashboard'), url(../font/dashboard.woff?20202465) format('woff'),
+         local('dashboard'), url(../font/dashboard.ttf?20202465) format('truetype'),
+         local('dashboard'), url(../font/dashboard.svg?20202465#dashboard) format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+@font-face {
+  font-family: 'Comfortaa';
+  src: local('Comfortaa'), url(../font/Comfortaa-Regular.ttf) format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Comfortaa';
+  src: local('Comfortaa'), url(../font/Comfortaa-Light.ttf) format('truetype');
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: 'Comfortaa';
+  src: local('Comfortaa'), url(../font/Comfortaa-Bold.ttf) format('truetype');
+  font-weight: bold;
+}

@@ -1,0 +1,49 @@
+.summary {
+    width: 100%;
+    max-width: 1500px;
+    margin: 1rem auto;
+}
+
+.summary h3 {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0 0.1rem 0.1rem black;
+    color: orange;
+    font-size: 2.4rem;
+}
+
+.summary-section:nth-child(2n) {
+    margin-top: 2rem;
+}
+
+.summary table {
+    padding: 1.5rem 0;
+    margin: 0.5rem 0 1rem 0;
+    width: 100%;
+    border: 1px solid #222;
+    box-shadow: 0 0.1rem 0.5rem 0 #111;
+    background: #333;
+}
+
+.summary table thead tr {
+    padding: 0.5rem;
+}
+
+.summary table thead th {
+    color: lightskyblue;
+    text-shadow: 0 0 0.1rem 0.1rem black;
+}
+
+.summary table tbody td {
+    text-align: center;
+    padding: 0.5rem 0;
+}
+
+.sla-meet {
+    color: lightgreen;
+}
+
+.sla-missed {
+    color: red;
+}
